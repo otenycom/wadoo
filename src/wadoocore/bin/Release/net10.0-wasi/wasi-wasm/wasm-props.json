@@ -1,0 +1,15 @@
+{
+  "items": {
+    "WasmOptConfigurationFlags": [],
+    "PropertiesThatTriggerRelinking": [
+      { "identity": "InvariantTimezone",      "defaultValueInRuntimePack": "false" },
+      { "identity": "InvariantGlobalization", "defaultValueInRuntimePack": "false" },
+      { "identity": "WasmNativeStrip",        "defaultValueInRuntimePack": "false" },
+      { "identity": "WasmSingleFileBundle",   "defaultValueInRuntimePack": "false" },
+      { "identity": "EnableDiagnostics",      "defaultValueInRuntimePack": "" },
+      { "identity": "WasmProfilers",          "defaultValueInRuntimePack": "" },
+      { "identity": "WasmEnableSIMD",         "defaultValueInRuntimePack": "false" },
+      { "identity": "RunAOTCompilation",      "defaultValueInRuntimePack": "" }
+    ]
+  }
+}
