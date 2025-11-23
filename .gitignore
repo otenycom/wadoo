@@ -1,0 +1,98 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[RR]elease/
+[RR]eleases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+b[in|in]/ 
+obj/
+[Ll]og/
+
+# Visual Studio / Rider
+.vs/
+.vscode/settings.json
+*.user
+*.suo
+*.sln.docstates
+*.cache
+*.VSIXPublisher
+*.[Cc]ache
+*.msi
+*.tlog
+*.[Pp]db
+*.idb
+*.ilk
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Build Results
+*.dll
+*.exe
+*.exe~
+*.pdb
+*.ilk
+*.lib
+*.a
+*.manifest
+
+# Package Management
+packages/
+node_modules/
+
+# Publish output
+publish/
+app.publish/
+
+# NuGet
+packages/
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+
+# NuGet v3's project.json (if it somehow gets created)
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Package References
+*.paket/
+
+# JetBrains Rider
+.idea/
+*.dotSettings.user
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Xamarin
+*.mtb
+*.xcworkspace
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+
+# Mac
+.DS_Store
+*.swp
+*.swo
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
