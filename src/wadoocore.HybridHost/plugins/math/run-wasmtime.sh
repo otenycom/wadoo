@@ -1,0 +1,1 @@
+wasmtime run math.wasm $*

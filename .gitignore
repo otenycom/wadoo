@@ -7,7 +7,7 @@ x64/
 x86/
 [Aa]rm/
 [Aa]rm64/
-b[in|in]/ 
+bin/
 obj/
 [Ll]og/
 
@@ -55,6 +55,7 @@ node_modules/
 
 # Publish output
 publish/
+publish-wasm/
 app.publish/
 
 # NuGet
@@ -96,3 +97,11 @@ artifacts/
 # .NET Core
 project.lock.json
 project.fragment.lock.json
+
+# WASM Build Artifacts
+*.wasm
+*.dat
+*.wit
+*.rsp
+wasm-*.h
+wasm-*.json

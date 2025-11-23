@@ -1,0 +1,20 @@
+Using launch settings from /Users/ries/oteny/wadoo/src/wadoocore.HybridHost/Properties/launchSettings.json...
+Building...
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5002
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/ries/oteny/wadoo/src/wadoocore.HybridHost
+Invoking plugin math with path /math/10/2
+Found plugin at: /Users/ries/oteny/wadoo/src/wadoocore.HybridHost/bin/Debug/net10.0/plugins/math/dotnet.wasm
+Error invoking plugin: Wasmtime.WasmtimeException: WebAssembly module 'dotnet' is not valid: failed to parse WebAssembly module
+
+Caused by:
+    expected a WebAssembly module but was given a WebAssembly component
+   at Wasmtime.Module.FromBytes(Engine engine, String name, ReadOnlySpan`1 bytes)
+   at Wasmtime.Module.FromFile(Engine engine, String path)
+   at Program.<<Main>$>g__InvokeWasiPlugin|0_2(String pluginName, String method, String path) in /Users/ries/oteny/wadoo/src/wadoocore.HybridHost/Program.cs:line 93
+   at Program.<>c.<<<Main>$>b__0_1>d.MoveNext() in /Users/ries/oteny/wadoo/src/wadoocore.HybridHost/Program.cs:line 32

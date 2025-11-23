@@ -1,0 +1,6 @@
+@wadoocore.HybridHost_HostAddress = http://localhost:5079
+
+GET {{wadoocore.HybridHost_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
