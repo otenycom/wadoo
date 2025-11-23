@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wadoo.Host", "src\Wadoo.Host\Wadoo.Host.csproj", "{2A1B3C4D-5E6F-7890-1234-567890ABCDEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPlugin", "src\Plugins\MathPlugin\MathPlugin.csproj", "{3B2C4D5E-6F78-9012-3456-7890ABCDEF12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wadoo.IntegrationTests", "tests\Wadoo.IntegrationTests\Wadoo.IntegrationTests.csproj", "{4C3D5E6F-7890-1234-5678-90ABCDEF1234}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D4E6F78-9012-3456-7890-ABCDEF123456}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6E5F7890-1234-5678-90AB-CDEF12345678}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{7F689012-3456-7890-ABCD-EF1234567890}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A1B3C4D-5E6F-7890-1234-567890ABCDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1B3C4D-5E6F-7890-1234-567890ABCDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1B3C4D-5E6F-7890-1234-567890ABCDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1B3C4D-5E6F-7890-1234-567890ABCDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2C4D5E-6F78-9012-3456-7890ABCDEF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2C4D5E-6F78-9012-3456-7890ABCDEF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2C4D5E-6F78-9012-3456-7890ABCDEF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2C4D5E-6F78-9012-3456-7890ABCDEF12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3D5E6F-7890-1234-5678-90ABCDEF1234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3D5E6F-7890-1234-5678-90ABCDEF1234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3D5E6F-7890-1234-5678-90ABCDEF1234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3D5E6F-7890-1234-5678-90ABCDEF1234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A1B3C4D-5E6F-7890-1234-567890ABCDEF} = {5D4E6F78-9012-3456-7890-ABCDEF123456}
+		{7F689012-3456-7890-ABCD-EF1234567890} = {5D4E6F78-9012-3456-7890-ABCDEF123456}
+		{3B2C4D5E-6F78-9012-3456-7890ABCDEF12} = {7F689012-3456-7890-ABCD-EF1234567890}
+		{4C3D5E6F-7890-1234-5678-90ABCDEF1234} = {6E5F7890-1234-5678-90AB-CDEF12345678}
+	EndGlobalSection
+EndGlobal
